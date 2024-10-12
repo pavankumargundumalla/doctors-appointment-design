@@ -1,0 +1,79 @@
+.appointment-form {
+    max-width: 500px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    margin: 20px 20px;
+  }
+  .fee-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    padding: 5px 40px;
+    border-radius: 10px;
+  }
+  .fee-cont span{
+    color: #4CAF50;
+    font-weight: 700;
+    font-family: 'Roboto' sans-serif;
+  }
+  .modes, .dates, .times {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .mode-button, .date-button, .time-button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .mode-button.active, .date-button.active, .time-button.active {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+  }
+  
+  .mode-button span, .date-button span {
+    display: block;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .appointment-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .appointment-button:hover {
+    background-color: #45a049;
+  }
+/*   
+  @media (max-width: 768px) {
+    .mode-button, .date-button, .time-button {
+      flex: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .modes button, .dates button {
+      flex: 30%;
+    }
+  } */
+  

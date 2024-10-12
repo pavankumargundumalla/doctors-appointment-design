@@ -1,0 +1,19 @@
+.profile-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-link {
+    text-decoration: none;
+  }
+  
+  .profile-link:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+  }
+  
+  .profile-link:active {
+    transform: translateY(0); /* Reset position on click */
+  }
+  

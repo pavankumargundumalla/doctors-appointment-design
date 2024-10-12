@@ -1,0 +1,17 @@
+.filters-doctors-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.filters-doctors-container select{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:426px) {
+    .filters-doctors-container{
+        display: none;
+    }
+}

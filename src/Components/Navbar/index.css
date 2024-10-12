@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #000;
+    background: #FFF7E2;
+    position: sticky;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #3A643B;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    font-weight: 600;
+    font-family: 'Roboto' sans-serif;
+  }
+  
+  .nav-item:hover {
+    color: #f0a500;
+  }
+  
+  .login-btn{
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    color: #3A643B;
+    background-color: transparent;
+    border: 1px solid #3A643B;
+    cursor: pointer;
+    border-radius: 11px;
+    font-family: 'Roboto' sans-serif;
+  }
+   .sign-up-btn {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 11px;
+    opacity: 0px;
+    background: #3A643B;
+    font-family: 'Roboto' sans-serif;
+
+  }
+  
+  
+  .menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 426px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #FFF7E2;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  

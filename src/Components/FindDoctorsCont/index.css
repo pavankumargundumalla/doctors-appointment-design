@@ -1,0 +1,41 @@
+.find-doctors-container{
+    background-image: url('https://res.cloudinary.com/ramcharan/image/upload/v1728571539/appointment-design/profile-background-1_kkk9gc.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    margin: 0px ;
+}
+.find-doctors-input-conts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.find-doctors-input-conts h3{
+    text-align: center;
+}
+.select-location{
+    width: 120px;
+    margin-right: 10px;
+}
+.doctor-input{
+    width: 200px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width:426px) {
+    .find-doctors-container{
+        height: 22vh;
+        padding: 0px;
+
+    }
+}

@@ -1,0 +1,402 @@
+/* .doctor-profile-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .about-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .specialization-section{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    margin: 20px;
+  }
+  
+  .about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-header h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .follow-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about-description {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .read-more {
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
+  .languages {
+    margin-top: 10px;
+  }
+  
+  .language-tags span {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #777;
+  }
+  
+  .specialization-section h2 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .specialization-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+  }
+  
+  .specialization-item {
+    text-align: center;
+    margin: 2px;
+  }
+  
+  .specialization-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .specialization-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+ 
+  
+
+
+
+
+
+
+
+
+
+  /* doctor details css */
+/* 
+
+
+  .doctor-details-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .concerns-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .concern-tags span {
+    display: inline-block;
+    background-color: #e8f5e9;
+    color: #4CAF50;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  
+  .work-experience-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-header {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .experience-list {
+    margin-top: 10px;
+  }
+  
+  .experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .experience-item i {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-right: 10px;
+  }
+  
+  
+  .reviews-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 20px;
+  }
+  
+  .review-item {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 0;
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .review-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .review-header div {
+    flex-grow: 1;
+  }
+  
+  .review-date {
+    color: #777;
+    font-size: 12px;
+  }
+  
+  .review-text {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .review-rating {
+    color: #FF9800;
+    font-size: 18px;
+  }
+   */
+  /* Responsive Styling */
+  /* @media (max-width: 768px) {
+    .experience-item, .review-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .review-avatar {
+      margin-bottom: 10px;
+    }
+  } */
+/*   
+
+  @media screen and (min-width:426px) {
+    .about-section{
+      width: 100%;
+    }
+    .concerns-section{
+      width: 100%;
+    }
+    .specialization-section{
+      width: 100%;
+    }
+  }  */
+
+
+
+/* Container styling */
+.doctor-profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About section */
+.about-section, .specialization-section, .concerns-section, .work-experience-section, .reviews-section {
+  margin-bottom: 30px;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-header h2 {
+  font-size: 1.8rem;
+}
+
+.follow-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-description {
+  margin: 15px 0;
+}
+
+.language-tags {
+  display: flex;
+  gap: 10px;
+}
+
+.language-tags span {
+  padding: 5px 10px;
+  background-color: #e9ecef;
+  border-radius: 20px;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.specialization-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.specialization-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.concern-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.concern-tags span {
+  background-color: #e9ecef;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .doctor-profile-container {
+    padding: 15px;
+  }
+
+  .about-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .follow-button {
+    margin-top: 10px;
+  }
+
+  .specialization-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .specialization-item img {
+    width: 80px;
+  }
+
+  .language-tags, .concern-tags {
+    flex-wrap: wrap;
+  }
+
+  .reviews-section {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-header h2 {
+    font-size: 2rem;
+  }
+
+  .specialization-icons {
+    justify-content: space-around;
+  }
+}
